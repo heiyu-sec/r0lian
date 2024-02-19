@@ -16,17 +16,18 @@ public class TestThread extends Thread{
             }
             int result = add(1, 2);
             String resultStr = add("1","2");
-            Log.i(TAG,"The Result is ==> " + result);
+            //Log.i(TAG,"The Result is ==> " + result);
         }
     }
 
     private int add(int a, int b){
-        Log.i(TAG,"The first param is ==-> " + a);
-        Log.i(TAG,"The second param is ==-> " + b);
+
+        //Log.i(TAG,"The first param is ==-> " + a);
+        //Log.i(TAG,"The second param is ==-> " + b);
         return a+b;
     }
 
-    private String add(String a, String b){
+   private String add(String a, String b){
 
         return a+b;
     }
